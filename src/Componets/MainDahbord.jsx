@@ -24,6 +24,7 @@ const MainDahbord = () => {
       </div>
       <div className=' w-[80vw] h-[90vh] bg-white my-[30px] '>
         <h1>ddjjjjdj</h1>
+        <h1>ddjjjjdj</h1>
       </div>
     </div>
   )
