@@ -13,7 +13,7 @@ const MainDahbord = () => {
           <input id='search' type="text" placeholder='Search' className=' w-[30vw] bg-white  pl-[50px] py-[10px] px-[50px] text-[#BEC1C9] placeholder:font-Mulish placeholder:font-[400] placeholder:text-[16px] placeholder:leading-[20px] '/>
         </form>
         <div className='flex justify-evenly space-x-2 items-center w-[190px] h-[40px] bg-white mt-[10px]'>
-          <div className=' w-[36px] h-[36px] border-2 broder-[#FF6600] rounded-full '></div>
+          <div className=' w-[36px] h-[36px] border-2 broder-[#FF6600] rounded-full'></div>
           <h2 className=' font-Mulish font-[600] text-[18px] text-[#000000] '>Add Admin</h2>
           <div>
             <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,6 +25,7 @@ const MainDahbord = () => {
       <div className=' w-[80vw] h-[90vh] bg-white my-[30px] '>
         <h1>ddjjjjdj</h1>
         <h1>ddjjjjdj</h1>
+        <h4>i love ypu veey much</h4>
       </div>
     </div>
   )
