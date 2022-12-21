@@ -1,15 +1,17 @@
-import MainDahbord from "./Componets/MainDahbord";
-import Sidebar from './Componets/Sidebar'
+import Dashboard from "./Components/Dashboard/Dashboard";
+import SideMenu from "./Components/SideMenu";
 
 
 
 function App() {
   return (
-    <div className=" w-full h-[100vh] bg-[#F4F4F6] flex">
-      <Sidebar />
-      <MainDahbord />
+    <div className="flex  bg-[#555B6A29] h-full w-full relative top-0 left-0">
+      <SideMenu />
+      <Dashboard />
     </div>
   );
 }
 
 export default App;
+
+
