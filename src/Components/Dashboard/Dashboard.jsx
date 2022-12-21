@@ -3,6 +3,7 @@ import Admin from '../Admin';
 import Analytics from './Analytics';
 import Card from './Card';
 import Navbar from './Navbar';
+import OrderList from './OrderList';
 
 const Dashboard = () => {
   return (
@@ -12,7 +13,7 @@ const Dashboard = () => {
         <Navbar />
         <Card />
         <Analytics />
-        {/* <p>Lorem ipsum dolor sit.</p> */}
+        <OrderList />
       </div>
     </div>
   )

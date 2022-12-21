@@ -1,6 +1,7 @@
 import React from 'react'
 import circle_chart from '../../Assets/Circle-Chart.png'
 
+
 const Analytics = () => {
   return (
     <div className='flex mt-[29px] space-x-7'>
@@ -31,6 +32,9 @@ const Analytics = () => {
             </div>
           </div>
         </div>
+        <div>
+          {/* Chart here */}
+        </div>
       </div>
       <div className='border broder-[#E6EDFF] w-[256px] h-[344px] rounded-md '>
         <div className='flex flex-col px-[10px]'>
@@ -46,21 +50,21 @@ const Analytics = () => {
             <img src={circle_chart} alt="/" />
           </div>
           <div className='flex space-x-3 justify-center pt-[20px]'>
-            <div className='flex items-center'>
+            <div className='flex items-center space-x-1'>
               <span>
                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="4.5" cy="4.5" r="4" fill="#347AE2"/>
                 </svg>
               </span>
-              <span className=' font-Mulish font-[600] ont-[14px] text-[#000000] '>Offline</span>
+              <span className='font-Mulish font-[600] ont-[14px] text-[#000000] '>Offline</span>
             </div>
-            <div className='flex items-center'>
+            <div className='flex items-center space-x-1'>
               <span>
                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="4.5" cy="4.5" r="4" fill="#347AE2"/>
                 </svg>
               </span>
-              <span className=' font-Mulish font-[600] ont-[14px] text-[#000000] '>Offline</span>
+              <span className='font-Mulish font-[600] ont-[14px] text-[#000000] '>Offline</span>
             </div>
           </div>
         </div>

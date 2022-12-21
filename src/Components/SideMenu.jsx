@@ -2,7 +2,7 @@ import React from 'react'
 
 const SideMenu = () => {
   return (
-    <div className='bg-white h-screen w-[250px] relative ml-1'>
+    <div className='bg-white min-h-[900px] w-[250px] relative ml-1'>
       <div className='flex flex-col space-y-6 relative '>
         <div className='py-10 border-b'>
           <svg className='absolute right-4 top-4 ' width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
