@@ -61,10 +61,10 @@ const Analytics = () => {
             <div className='flex items-center space-x-1'>
               <span>
                 <svg width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="4.5" cy="4.5" r="4" fill="#347AE2"/>
+                  <circle cx="4.5" cy="4.5" r="4" fill="#FF9500"/>
                 </svg>
               </span>
-              <span className='font-Mulish font-[600] ont-[14px] text-[#000000] '>Offline</span>
+              <span className='font-Mulish font-[600] ont-[14px] text-[#000000]'>Online</span>
             </div>
           </div>
         </div>
