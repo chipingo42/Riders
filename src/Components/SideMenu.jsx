@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import {BsGrid} from 'react-icons/bs'
+import {MdOutlineEventNote} from 'react-icons/md'
 
 const SideMenu = () => {
   return (
@@ -15,11 +17,7 @@ const SideMenu = () => {
         <div className='flex flex-col space-y-4 mx-[20px] '>
           <Link to="/">
             <div className='flex items-center space-x-2 px-4 rounded-sm  py-2 group hover:bg-[#133040]'>
-              <span>
-                <svg className=' fill-[#555B6A] group-hover:fill-white ' width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16 0H0V5.05263H0.8V14.3158C0.8 14.7625 0.968571 15.1909 1.26863 15.5067C1.56869 15.8226 1.97565 16 2.4 16H13.6C14.0243 16 14.4313 15.8226 14.7314 15.5067C15.0314 15.1909 15.2 14.7625 15.2 14.3158V5.05263H16V0ZM1.6 1.68421H14.4V3.36842H1.6V1.68421ZM13.6 14.3158H2.4V5.05263H13.6V14.3158ZM5.6 6.73684H10.4C10.4 7.18352 10.2314 7.61191 9.93137 7.92776C9.63131 8.24361 9.22435 8.42105 8.8 8.42105H7.2C6.77565 8.42105 6.36869 8.24361 6.06863 7.92776C5.76857 7.61191 5.6 7.18352 5.6 6.73684Z"/>
-                </svg>
-              </span>
+              <BsGrid className='group-hover:text-white' />
               <p className=' font-Mulish font-[600] text-[16px] group-hover:text-white '>Dashboard</p>
             </div>
           </Link>
@@ -34,11 +32,7 @@ const SideMenu = () => {
             </div>
           </Link>
           <div className='flex items-center space-x-2 px-4 rounded-sm  py-2 group hover:bg-[#133040]'>
-            <span>
-              <svg className=' fill-[#555B6A] group-hover:fill-white ' width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 0H0V5.05263H0.8V14.3158C0.8 14.7625 0.968571 15.1909 1.26863 15.5067C1.56869 15.8226 1.97565 16 2.4 16H13.6C14.0243 16 14.4313 15.8226 14.7314 15.5067C15.0314 15.1909 15.2 14.7625 15.2 14.3158V5.05263H16V0ZM1.6 1.68421H14.4V3.36842H1.6V1.68421ZM13.6 14.3158H2.4V5.05263H13.6V14.3158ZM5.6 6.73684H10.4C10.4 7.18352 10.2314 7.61191 9.93137 7.92776C9.63131 8.24361 9.22435 8.42105 8.8 8.42105H7.2C6.77565 8.42105 6.36869 8.24361 6.06863 7.92776C5.76857 7.61191 5.6 7.18352 5.6 6.73684Z"/>
-              </svg>
-            </span>
+            <MdOutlineEventNote className=' text-[20px] text-[#555B6A] group-hover:text-white ' />
             <p className=' font-Mulish font-[600] text-[16px] group-hover:text-white '>Orders</p>
           </div>
         </div>
