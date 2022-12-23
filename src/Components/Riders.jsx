@@ -88,7 +88,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>4</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -108,7 +108,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>5</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -128,7 +128,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>6</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -148,7 +148,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>7</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -168,7 +168,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>8</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -188,7 +188,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>9</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -208,7 +208,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>10</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -228,7 +228,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-[15px] '>11</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -248,7 +248,7 @@ const Riders = () => {
                 </th>
               </tr>
               <tr className='border-y border-[#E6EDFF]'>
-                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-4 '>3</th>
+                <th className=' font-Poppins font-[500] text-[12px] text-[#000000] py-4 '>12</th>
                 <th className='font-Poppins font-[500] text-[12px] text-[#000000]  relative left-0 '>
                   <span className='flex items-center space-x-3 absolute left-8 top-2'>
                     <img src={avater} alt="/" />
@@ -277,8 +277,8 @@ const Riders = () => {
             </select>
           </div>
           <div className='flex items-center flex-row space-x-2 mt-3 '>
-            <div className='bg-[#F4F4F6] h-[46px] w-[46px] flex items-center justify-center rounded-sm hover:bg-[#FF6600] '>
-              <svg className=' fill-[#555B6A] hover:fill-white ' width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <div className='bg-[#F4F4F6] h-[46px] w-[46px] flex items-center justify-center rounded-sm  group-hover:bg-[#FF6600] '>
+              <svg className=' fill-[#555B6A] group-hover:fill-white ' width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10 2.28571L3.75 8L10 13.7143L8.75 16L0 8L8.75 0L10 2.28571Z" />
               </svg>
             </div>
@@ -286,7 +286,10 @@ const Riders = () => {
               1
             </div>
             <div className='bg-[#F4F4F6] h-[46px] w-[46px] flex items-center justify-center rounded-sm hover:bg-[#FF6600] hover:text-white '>
-              1
+              2
+            </div>
+            <div className='bg-[#F4F4F6] h-[46px] w-[46px] flex items-center justify-center rounded-sm hover:bg-[#FF6600] hover:text-white '>
+              3
             </div>
             <div className='bg-[#F4F4F6] h-[46px] w-[46px] flex items-center justify-center rounded-sm hover:bg-[#FF6600]'>
               <svg className='fill-[#555B6A] hover:fill-white' width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">

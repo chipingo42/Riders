@@ -1,7 +1,9 @@
 import { Route, Routes } from "react-router";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Riders from "./Components/Riders";
+import Orders from "./Components/Orders";
 import SideMenu from "./Components/SideMenu";
+
 
 
 
@@ -12,7 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Dashboard/>}/>
         <Route path="/Riders" element={<Riders/>}/>
+        <Route path="/Orders" element={<Orders/>}/>
       </Routes>
+
     </div>
   );
 }

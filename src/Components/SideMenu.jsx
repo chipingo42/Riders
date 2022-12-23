@@ -31,10 +31,12 @@ const SideMenu = () => {
               <p className=' font-Mulish font-[600] text-[16px] group-hover:text-white '>Riders</p>
             </div>
           </Link>
-          <div className='flex items-center space-x-2 px-4 rounded-sm  py-2 group hover:bg-[#133040]'>
-            <MdOutlineEventNote className=' text-[20px] text-[#555B6A] group-hover:text-white ' />
-            <p className=' font-Mulish font-[600] text-[16px] group-hover:text-white '>Orders</p>
-          </div>
+          <Link to="/Orders">
+            <div className='flex items-center space-x-2 px-4 rounded-sm  py-2 group hover:bg-[#133040]'>
+              <MdOutlineEventNote className=' text-[20px] text-[#555B6A] group-hover:text-white ' />
+              <p className=' font-Mulish font-[600] text-[16px] group-hover:text-white '>Orders</p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>
