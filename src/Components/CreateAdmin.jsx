@@ -8,7 +8,7 @@ const CreateAdmin = ({ visible , onClose }) => {
   if(!visible) return null
 
   return (
-    <div id='createAdmin' className='bg-[#0000004D] h-full w-full absolute left-0 z-10 top-0 ' onClick={closeAdmin}>
+    <div id='createAdmin' className='bg-[#0000004D] h-full w-full fixed left-0 z-10 top-0 ' onClick={closeAdmin}>
       <div className='absolute right-[35%] top-[15%] bg-white w-[300px] h-[420px] rounded-md'>
         <h1 className='flex justify-center font-Mulish font-[700] text-[20px] text-[#000000] pt-[27px] '>Create Admin</h1>
         <form className='px-[30px] '>

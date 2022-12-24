@@ -18,7 +18,7 @@ const Navbar = () => {
                 </svg>
               </span>
             </label>
-            <input id='search2' type="text" className='py-1' />
+            <input id='search2' type="text" className='py-1 pl-2' />
           </form>
         </div>
         <div>

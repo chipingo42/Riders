@@ -5,15 +5,13 @@ import CreateAdmin from './CreateAdmin'
 const Admin = () => {
 
   const [createAdmin, setCreatAdmin] = useState(false)
-
-
   const handleCreateAdmin = () => setCreatAdmin(true)
   const handleCloseCreateAdmin = () => setCreatAdmin(false)
 
 
   return (
     <>
-     <CreateAdmin  visible={createAdmin} onClose={handleCloseCreateAdmin} />
+      <CreateAdmin  visible={createAdmin} onClose={handleCloseCreateAdmin} />
       <div className='flex justify-between items-center mt-2'>
         <div>
           <form className='flex items-center relative top-0 left-0 '>
@@ -29,7 +27,7 @@ const Admin = () => {
         </div>
         <div className=' bg-white w-[180px] h-[40px] '>
           <div className='flex space-x-3 items-center px-1'>
-            <div className=' w-[36px] h-[36px] border-2 border-solid border-[#FF6600] rounded-full mt-1 '>
+            <div className=' w-[36px] h-[36px] border-2 border-solid border-[#FF6600] rounded-full relative top-[0.1rem] '>
               <img src={avater} alt="/" />
             </div>
             <div className='flex items-center space-x-2' onClick={handleCreateAdmin}>
